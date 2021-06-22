@@ -1,11 +1,9 @@
 package com.sunnyweather.android.logic
 
 import androidx.lifecycle.liveData
-import com.example.a32002007njtweather.logic.network.SunnyWeatherNetwork
-import com.example.a32002007njtweather.logic.dao.PlaceDao
-import com.example.a32002007njtweather.logic.model.Place
-import com.example.a32002007njtweather.logic.model.Weather
+import com.sunnyweather.android.logic.dao.PlaceDao
 import com.sunnyweather.android.logic.model.Place
+import com.sunnyweather.android.logic.model.Weather
 import com.sunnyweather.android.logic.network.SunnyWeatherNetwork
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.*
